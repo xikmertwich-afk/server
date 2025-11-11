@@ -1,0 +1,562 @@
+[11Nov2025 17:20:16.587] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[11Nov2025 17:20:16.590] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[11Nov2025 17:20:17.138] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[11Nov2025 17:20:17.254] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[11Nov2025 17:20:17.578] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[11Nov2025 17:20:17.580] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Nov2025 17:20:17.581] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Nov2025 17:20:17.583] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Nov2025 17:20:17.943] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[11Nov2025 17:20:19.715] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[11Nov2025 17:20:19.746] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[11Nov2025 17:20:19.866] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[11Nov2025 17:20:26.843] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[11Nov2025 17:20:26.843] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[11Nov2025 17:20:28.183] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[11Nov2025 17:20:28.608] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[11Nov2025 17:20:28.609] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[11Nov2025 17:20:28.747] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.35 Target: null
+[11Nov2025 17:20:29.450] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11Nov2025 17:20:30.386] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23115!/assets/.mcassetsroot' uses unexpected schema
+[11Nov2025 17:20:30.387] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23115!/data/.mcassetsroot' uses unexpected schema
+[11Nov2025 17:20:32.599] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[11Nov2025 17:20:32.724] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[11Nov2025 17:20:33.257] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[11Nov2025 17:20:33.257] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[11Nov2025 17:20:33.257] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[11Nov2025 17:20:33.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[11Nov2025 17:20:33.453] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[11Nov2025 17:20:33.484] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[11Nov2025 17:20:33.579] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11Nov2025 17:20:33.579] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[11Nov2025 17:20:33.579] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11Nov2025 17:20:33.580] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[11Nov2025 17:20:33.615] [Server thread/INFO] [Framework/]: Loading server configs...
+[11Nov2025 17:20:33.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[11Nov2025 17:20:36.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[11Nov2025 17:20:39.701] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Nov2025 17:20:39.703] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Nov2025 17:20:39.706] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Nov2025 17:20:39.706] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Nov2025 17:20:39.707] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Nov2025 17:20:39.707] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Nov2025 17:20:39.709] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Nov2025 17:20:40.171] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Nov2025 17:20:40.671] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Nov2025 17:20:41.171] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[11Nov2025 17:20:41.591] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4920 ms
+[11Nov2025 17:20:41.591] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.997s)! For help, type "help"
+[11Nov2025 17:20:41.609] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[11Nov2025 17:21:45.670] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[11Nov2025 17:21:45.881] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elbombonaas[/127.105.170.85:42747] logged in with entity id 49 at (-735.6546034639956, 198.0, 109.71215487448545)
+[11Nov2025 17:21:45.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas joined the game
+[11Nov2025 17:21:45.953] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elbombonaas lost connection: Disconnected
+[11Nov2025 17:21:45.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas left the game
+[11Nov2025 17:21:45.984] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[11Nov2025 17:21:49.330] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elbombonaas[/127.105.170.85:47271] logged in with entity id 50 at (-735.6546034639956, 198.0, 109.71215487448545)
+[11Nov2025 17:21:49.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas joined the game
+[11Nov2025 17:22:45.487] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chukuskuz[/127.195.114.5:39029] logged in with entity id 400 at (-786.4597291950001, 71.162141421027, 117.2091464543134)
+[11Nov2025 17:22:45.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz joined the game
+[11Nov2025 17:27:10.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz fell from a high place
+[11Nov2025 17:27:10.128] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is ab5d3d36-dc61-45c1-b8eb-890bceb59a86
+[11Nov2025 17:28:21.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was doomed to fall by elbombonaas
+[11Nov2025 17:28:21.674] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is a582bdf1-d423-4f96-a530-cba537fc633f
+[11Nov2025 17:30:09.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was doomed to fall by elbombonaas
+[11Nov2025 17:30:09.206] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is 8d038c24-12c1-44dd-85cd-bc9903727654
+[11Nov2025 17:31:18.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas fell from a high place
+[11Nov2025 17:31:18.447] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is 63d59396-4477-4729-b840-6e754040bf6d
+[11Nov2025 17:31:39.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 17:31:51.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas fell from a high place
+[11Nov2025 17:31:51.254] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is e5dee427-91fd-4301-b292-ae659624f4df
+[11Nov2025 17:32:16.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 17:33:27.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 50 experience points to elbombonaas]
+[11Nov2025 17:33:38.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 3000 experience points to elbombonaas]
+[11Nov2025 17:34:27.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas fell from a high place
+[11Nov2025 17:34:27.197] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is c8d1d096-be75-411f-a531-c8aa7b785319
+[11Nov2025 17:34:49.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 17:35:14.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas fell from a high place
+[11Nov2025 17:35:14.507] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is e32d2cf2-e7a2-4b58-a54e-8a266b7e6ebd
+[11Nov2025 17:35:35.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 17:35:44.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was doomed to fall by elbombonaas
+[11Nov2025 17:35:44.951] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is 6ad33a5c-7514-44c8-81aa-58ab73e36a54
+[11Nov2025 17:36:21.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas fell from a high place
+[11Nov2025 17:36:21.553] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is ba614d26-4f25-410b-87f9-00e7760f9c20
+[11Nov2025 17:37:18.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz fell from a high place
+[11Nov2025 17:37:18.647] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is bb38ec3e-9dd5-469c-89dd-f55a30dd1569
+[11Nov2025 17:37:55.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 3000 experience points to elbombonaas]
+[11Nov2025 17:39:02.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz fell from a high place
+[11Nov2025 17:39:02.996] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is cd2befc8-a351-4f79-9fd1-1b085d991c49
+[11Nov2025 17:41:57.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was slain by elbombonaas using [lucia]
+[11Nov2025 17:41:57.857] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is 50d50d9e-c635-4cc7-a839-9cf0765716a9
+[11Nov2025 17:42:35.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 3000 experience points to Chukuskuz]
+[11Nov2025 17:45:06.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 1 [Fishing Rod] to Chukuskuz]
+[11Nov2025 17:45:31.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set the time to 1000]
+[11Nov2025 17:47:14.556] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Weaponsmith'/152, l='ServerLevel[world]', x=-827.70, y=70.00, z=131.51] died, message: 'Weaponsmith was slain by elbombonaas using [lucia]'
+[11Nov2025 17:47:31.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz has made the advancement [Fishy Business]
+[11Nov2025 18:01:27.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas has made the advancement [Fishy Business]
+[11Nov2025 18:26:34.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was doomed to fall
+[11Nov2025 18:26:34.221] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is 9e77679a-0824-4148-b22c-063ebb80a456
+[11Nov2025 18:28:26.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz fell from a high place
+[11Nov2025 18:28:26.824] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is d2308a10-b87a-4971-8cf3-64689e8c9d00
+[11Nov2025 18:30:15.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was slain by elbombonaas using [lucia]
+[11Nov2025 18:30:15.683] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is c1f01e51-93d5-43cb-b06b-8231e1bd5949
+[11Nov2025 18:30:24.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -732.500000, 198.000000, 101.500000]
+[11Nov2025 18:34:39.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 68 [Arrow] to Chukuskuz]
+[11Nov2025 18:35:04.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was burnt to a crisp whilst fighting elbombonaas
+[11Nov2025 18:35:04.818] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is a0c315f3-85b8-4b65-a3d4-ad4e160f2e3a
+[11Nov2025 18:35:17.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -748.500000, 158.000000, 103.500000]
+[11Nov2025 18:35:20.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -793.500000, 71.000000, 129.500000]
+[11Nov2025 18:35:20.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was doomed to fall
+[11Nov2025 18:35:20.273] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is ca5bbfaa-db85-4560-9d62-0395d679dcce
+[11Nov2025 18:35:26.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 18:35:50.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Spectator Mode]
+[11Nov2025 18:36:15.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 18:38:35.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was doomed to fall
+[11Nov2025 18:38:35.298] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is a34c807f-c0a3-482b-b72a-4112f1c7c38d
+[11Nov2025 18:39:13.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 65 [Dirt] to Chukuskuz]
+[11Nov2025 18:39:32.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was doomed to fall
+[11Nov2025 18:39:32.440] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is 75a1acc2-1987-49d5-98b0-ff30d88f886b
+[11Nov2025 18:39:36.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -732.500000, 198.000000, 101.500000]
+[11Nov2025 18:39:47.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -738.500000, 73.000000, 113.500000]
+[11Nov2025 18:41:19.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -793.500000, 71.000000, 129.500000]
+[11Nov2025 18:44:43.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz fell from a high place
+[11Nov2025 18:44:43.378] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is 6714ccf5-19c3-4fbc-a6e9-561e960af68c
+[11Nov2025 18:45:33.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was burnt to a crisp whilst fighting elbombonaas
+[11Nov2025 18:45:33.621] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is 8cf9e3c3-8e14-4b69-9cec-70c167aeadcd
+[11Nov2025 18:45:37.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -735.500000, 70.000000, 99.500000]
+[11Nov2025 18:45:40.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -758.500000, 75.000000, 135.500000]
+[11Nov2025 18:45:57.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was doomed to fall by elbombonaas
+[11Nov2025 18:45:57.529] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is 58640825-251b-4b56-bf46-7abacf2da55e
+[11Nov2025 18:46:03.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -740.500000, 73.000000, 108.500000]
+[11Nov2025 18:46:57.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -793.500000, 71.000000, 129.500000]
+[11Nov2025 18:47:34.095] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chukuskuz moved too quickly! -9.814043791688619,0.001335979112141672,2.4455045603855154
+[11Nov2025 18:47:34.136] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3225ms or 64 ticks behind
+[11Nov2025 18:48:18.248] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chukuskuz lost connection: Disconnected
+[11Nov2025 18:48:18.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz left the game
+[11Nov2025 18:48:18.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Kicked Chukuskuz: maricon]
+[11Nov2025 18:48:18.276] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[11Nov2025 18:48:41.377] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@33c387ad[id=<null>,name=Chukuskuz,properties={},legacy=false] (/127.195.114.5:34769) lost connection: Disconnected
+[11Nov2025 18:48:44.080] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chukuskuz[/127.195.114.5:45189] logged in with entity id 24196 at (-831.6999999880791, 63.0, 142.3186660621612)
+[11Nov2025 18:48:44.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz joined the game
+[11Nov2025 18:49:13.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 42 [Bread] to Chukuskuz]
+[11Nov2025 18:49:19.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 42 [Arrow] to Chukuskuz]
+[11Nov2025 18:49:54.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to elbombonaas]
+[11Nov2025 18:50:20.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was slain by elbombonaas using [lucia]
+[11Nov2025 18:50:20.339] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is 52f63dec-7ec5-4f2e-8790-94efe98c1b74
+[11Nov2025 18:50:43.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -735.500000, 70.000000, 99.500000]
+[11Nov2025 18:50:45.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -258.500000, 51.000000, -15.500000]
+[11Nov2025 18:50:48.990] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=50, z=-40} BlockPos{x=-236, y=50, z=-39}
+[11Nov2025 18:50:49.033] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=50, z=-40} BlockPos{x=-236, y=50, z=-39}
+[11Nov2025 18:50:49.089] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=50, z=-40} BlockPos{x=-236, y=50, z=-39}
+[11Nov2025 18:50:49.135] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=50, z=-40} BlockPos{x=-236, y=50, z=-39}
+[11Nov2025 18:50:49.189] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=50, z=-40} BlockPos{x=-236, y=50, z=-39}
+[11Nov2025 18:50:49.234] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=50, z=-40} BlockPos{x=-236, y=50, z=-39}
+[11Nov2025 18:50:49.286] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=50, z=-40} BlockPos{x=-236, y=50, z=-39}
+[11Nov2025 18:50:49.334] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=50, z=-40} BlockPos{x=-236, y=50, z=-39}
+[11Nov2025 18:50:49.836] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=52, z=-40} BlockPos{x=-234, y=50, z=-41}
+[11Nov2025 18:50:49.888] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=52, z=-40} BlockPos{x=-234, y=50, z=-41}
+[11Nov2025 18:50:49.939] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=52, z=-40} BlockPos{x=-234, y=50, z=-41}
+[11Nov2025 18:50:49.984] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=52, z=-40} BlockPos{x=-234, y=50, z=-41}
+[11Nov2025 18:50:50.038] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=52, z=-40} BlockPos{x=-234, y=50, z=-41}
+[11Nov2025 18:50:50.083] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-235, y=52, z=-40} BlockPos{x=-234, y=50, z=-41}
+[11Nov2025 18:50:52.032] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-232, y=49, z=-41} BlockPos{x=-233, y=49, z=-40}
+[11Nov2025 18:50:52.081] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-232, y=49, z=-41} BlockPos{x=-233, y=49, z=-40}
+[11Nov2025 18:50:52.135] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-232, y=49, z=-41} BlockPos{x=-233, y=49, z=-40}
+[11Nov2025 18:50:52.187] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-232, y=49, z=-41} BlockPos{x=-233, y=49, z=-40}
+[11Nov2025 18:50:57.986] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-231, y=46, z=-42} BlockPos{x=-231, y=45, z=-42}
+[11Nov2025 18:50:58.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Kicked elbombonaas: maricon]
+[11Nov2025 18:50:58.071] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elbombonaas lost connection: maricon
+[11Nov2025 18:50:58.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas left the game
+[11Nov2025 18:51:07.628] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elbombonaas[/127.105.170.85:56513] logged in with entity id 25607 at (-230.5230574268421, 47.0, -39.703704697899205)
+[11Nov2025 18:51:07.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas joined the game
+[11Nov2025 18:51:11.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -112.500000, 55.000000, 15.500000]
+[11Nov2025 18:51:30.081] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chukuskuz lost connection: Disconnected
+[11Nov2025 18:51:30.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz left the game
+[11Nov2025 18:51:39.186] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-216, y=47, z=-48} BlockPos{x=-216, y=46, z=-48}
+[11Nov2025 18:51:45.237] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-214, y=43, z=-51} BlockPos{x=-214, y=39, z=-51}
+[11Nov2025 18:53:32.289] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-170, y=28, z=-68} BlockPos{x=-171, y=28, z=-68}
+[11Nov2025 18:53:32.339] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-170, y=28, z=-68} BlockPos{x=-171, y=28, z=-68}
+[11Nov2025 18:53:35.987] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-171, y=28, z=-63} BlockPos{x=-171, y=27, z=-64}
+[11Nov2025 18:53:36.034] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-171, y=28, z=-63} BlockPos{x=-171, y=27, z=-64}
+[11Nov2025 18:53:36.087] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-171, y=28, z=-63} BlockPos{x=-171, y=27, z=-64}
+[11Nov2025 18:53:36.337] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-170, y=26, z=-63} BlockPos{x=-170, y=26, z=-64}
+[11Nov2025 18:53:36.385] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-170, y=26, z=-63} BlockPos{x=-170, y=26, z=-64}
+[11Nov2025 18:53:36.438] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-170, y=26, z=-63} BlockPos{x=-170, y=26, z=-64}
+[11Nov2025 18:53:36.483] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-170, y=26, z=-63} BlockPos{x=-170, y=26, z=-64}
+[11Nov2025 18:54:02.988] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-171, y=25, z=-58} BlockPos{x=-171, y=25, z=-59}
+[11Nov2025 18:54:35.788] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-177, y=21, z=-48} BlockPos{x=-176, y=20, z=-43}
+[11Nov2025 18:54:35.851] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-177, y=21, z=-48} BlockPos{x=-176, y=20, z=-43}
+[11Nov2025 18:55:44.887] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-183, y=19, z=9} BlockPos{x=-183, y=19, z=8}
+[11Nov2025 18:55:44.936] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-183, y=19, z=9} BlockPos{x=-183, y=19, z=8}
+[11Nov2025 18:55:44.985] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-183, y=19, z=9} BlockPos{x=-183, y=19, z=8}
+[11Nov2025 18:55:45.037] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-183, y=19, z=9} BlockPos{x=-183, y=19, z=8}
+[11Nov2025 18:55:53.588] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-182, y=20, z=14} BlockPos{x=-182, y=19, z=15}
+[11Nov2025 18:55:53.639] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-182, y=20, z=14} BlockPos{x=-182, y=19, z=15}
+[11Nov2025 18:55:53.691] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-182, y=20, z=14} BlockPos{x=-182, y=19, z=15}
+[11Nov2025 18:55:53.737] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-182, y=20, z=14} BlockPos{x=-182, y=19, z=15}
+[11Nov2025 18:55:53.788] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-182, y=20, z=14} BlockPos{x=-182, y=19, z=15}
+[11Nov2025 18:56:49.789] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-186, y=18, z=71} BlockPos{x=-186, y=17, z=71}
+[11Nov2025 18:56:49.838] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-186, y=18, z=71} BlockPos{x=-186, y=17, z=71}
+[11Nov2025 18:56:49.891] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-186, y=18, z=71} BlockPos{x=-186, y=17, z=71}
+[11Nov2025 18:56:49.941] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-186, y=18, z=71} BlockPos{x=-186, y=17, z=71}
+[11Nov2025 18:57:14.139] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-191, y=18, z=102} BlockPos{x=-192, y=17, z=104}
+[11Nov2025 18:57:14.187] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-191, y=18, z=102} BlockPos{x=-192, y=17, z=104}
+[11Nov2025 18:57:14.237] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-191, y=18, z=102} BlockPos{x=-192, y=17, z=104}
+[11Nov2025 18:57:14.286] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-191, y=18, z=102} BlockPos{x=-192, y=17, z=104}
+[11Nov2025 18:57:14.339] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-191, y=18, z=102} BlockPos{x=-192, y=17, z=104}
+[11Nov2025 18:57:34.290] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-200, y=16, z=130} BlockPos{x=-199, y=16, z=138}
+[11Nov2025 18:58:15.992] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-195, y=15, z=162} BlockPos{x=-195, y=16, z=166}
+[11Nov2025 18:58:16.040] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-195, y=15, z=162} BlockPos{x=-195, y=16, z=166}
+[11Nov2025 18:58:20.791] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-195, y=15, z=184} BlockPos{x=-195, y=15, z=183}
+[11Nov2025 18:58:20.842] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-195, y=15, z=184} BlockPos{x=-195, y=15, z=183}
+[11Nov2025 18:58:20.889] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-195, y=15, z=184} BlockPos{x=-195, y=15, z=183}
+[11Nov2025 18:58:22.371] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elbombonaas lost connection: Disconnected
+[11Nov2025 18:58:22.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas left the game
+[11Nov2025 19:51:02.762] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@b1d5b79[id=<null>,name=Chukuskuz,properties={},legacy=false] (/127.195.114.5:37641) lost connection: Disconnected
+[11Nov2025 19:51:06.121] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chukuskuz[/127.195.114.5:39991] logged in with entity id 29682 at (-813.4365459420388, 70.0, 145.21140709367234)
+[11Nov2025 19:51:06.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz joined the game
+[11Nov2025 19:51:21.830] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elbombonaas[/127.105.170.85:45579] logged in with entity id 29944 at (-194.65604571716895, 15.0, 180.7569757404322)
+[11Nov2025 19:51:21.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas joined the game
+[11Nov2025 19:51:46.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 19:52:22.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set the weather to clear]
+[11Nov2025 19:54:46.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 19:56:10.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 19:56:56.617] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Toolsmith'/29739, l='ServerLevel[world]', x=-811.99, y=72.00, z=176.70] died, message: 'Toolsmith was slain by Zombie'
+[11Nov2025 19:57:11.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz fell from a high place
+[11Nov2025 19:57:11.557] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is b1eb7e95-9e9c-4343-84df-6c4ec4a714f9
+[11Nov2025 19:57:24.018] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@347f1e68[id=<null>,name=LuciaGolfa,properties={},legacy=false] (/127.42.124.180:37555) lost connection: Disconnected
+[11Nov2025 19:57:25.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was burnt to a crisp whilst fighting elbombonaas
+[11Nov2025 19:57:25.522] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is ebd5d0e8-1ceb-4bf6-a896-8f40199905eb
+[11Nov2025 19:57:31.372] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LuciaGolfa[/127.42.124.180:57897] logged in with entity id 32254 at (-230.5, 67.0, 339.5)
+[11Nov2025 19:57:31.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa joined the game
+[11Nov2025 19:59:02.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported LuciaGolfa to Chukuskuz]
+[11Nov2025 19:59:37.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set the time to 1000]
+[11Nov2025 19:59:51.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Kicked elbombonaas: Kicked by an operator]
+[11Nov2025 19:59:51.977] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elbombonaas lost connection: Kicked by an operator
+[11Nov2025 19:59:51.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas left the game
+[11Nov2025 19:59:57.977] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elbombonaas[/127.105.170.85:35789] logged in with entity id 33459 at (-1099.2469353407514, 79.16610926093821, 217.23395170860698)
+[11Nov2025 19:59:57.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas joined the game
+[11Nov2025 20:01:16.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 70 [Emerald] to Chukuskuz]
+[11Nov2025 20:01:41.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [Cover Me with Diamonds]
+[11Nov2025 20:02:17.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [Acquire Hardware]
+[11Nov2025 20:02:51.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [Isn't It Iron Pick]
+[11Nov2025 20:03:42.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [Diamonds!]
+[11Nov2025 20:05:29.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was doomed to fall
+[11Nov2025 20:05:29.634] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is 2ad4666c-0153-40c8-97d7-50f89875ebf5
+[11Nov2025 20:05:35.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -730.500000, 73.000000, 113.500000]
+[11Nov2025 20:06:30.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [Monster Hunter]
+[11Nov2025 20:07:03.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa was slain by elbombonaas using [lucia]
+[11Nov2025 20:07:03.225] [Server thread/INFO] [gravestone/]: The death ID of player LuciaGolfa is 888dd852-e89c-405e-922c-f0f6ab45198b
+[11Nov2025 20:07:38.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [Not Today, Thank You]
+[11Nov2025 20:08:16.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [Take Aim]
+[11Nov2025 20:12:25.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [We Need to Go Deeper]
+[11Nov2025 20:12:27.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 70 [Arrow] to Chukuskuz]
+[11Nov2025 20:15:23.754] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-85, y=59, z=-34} BlockPos{x=-85, y=61, z=-36}
+[11Nov2025 20:15:23.799] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-85, y=59, z=-34} BlockPos{x=-85, y=61, z=-36}
+[11Nov2025 20:15:23.855] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-85, y=59, z=-34} BlockPos{x=-85, y=61, z=-36}
+[11Nov2025 20:15:23.898] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-85, y=59, z=-34} BlockPos{x=-85, y=61, z=-36}
+[11Nov2025 20:15:48.100] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-60, y=79, z=-20} BlockPos{x=-60, y=78, z=-20}
+[11Nov2025 20:15:48.150] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-60, y=79, z=-20} BlockPos{x=-60, y=78, z=-20}
+[11Nov2025 20:15:48.675] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-59, y=79, z=-20} BlockPos{x=-59, y=78, z=-20}
+[11Nov2025 20:15:48.705] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-59, y=79, z=-20} BlockPos{x=-59, y=78, z=-20}
+[11Nov2025 20:15:48.756] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-59, y=79, z=-20} BlockPos{x=-59, y=78, z=-20}
+[11Nov2025 20:15:50.155] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-58, y=80, z=-20} BlockPos{x=-58, y=81, z=-20}
+[11Nov2025 20:15:50.203] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-58, y=80, z=-20} BlockPos{x=-58, y=81, z=-20}
+[11Nov2025 20:15:50.251] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-58, y=80, z=-20} BlockPos{x=-58, y=81, z=-20}
+[11Nov2025 20:15:50.309] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-58, y=80, z=-20} BlockPos{x=-58, y=81, z=-20}
+[11Nov2025 20:15:50.349] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-58, y=80, z=-20} BlockPos{x=-58, y=81, z=-20}
+[11Nov2025 20:15:50.396] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-58, y=80, z=-20} BlockPos{x=-58, y=81, z=-20}
+[11Nov2025 20:21:02.106] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:fortress took 2 ms
+[11Nov2025 20:21:19.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to 32.500000, 40.000000, -287.500000]
+[11Nov2025 20:21:42.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported 3 entities to Chukuskuz]
+[11Nov2025 20:22:44.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz has made the advancement [A Terrible Fortress]
+[11Nov2025 20:22:48.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas has made the advancement [A Terrible Fortress]
+[11Nov2025 20:22:49.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [A Terrible Fortress]
+[11Nov2025 20:23:26.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas has made the advancement [Into Fire]
+[11Nov2025 20:24:00.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [Into Fire]
+[11Nov2025 20:24:10.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz has made the advancement [Into Fire]
+[11Nov2025 20:25:51.073] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=28, y=80, z=-273} BlockPos{x=28, y=81, z=-275}
+[11Nov2025 20:25:51.124] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=28, y=80, z=-273} BlockPos{x=28, y=81, z=-275}
+[11Nov2025 20:25:51.177] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=28, y=80, z=-273} BlockPos{x=28, y=81, z=-275}
+[11Nov2025 20:25:51.222] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=28, y=80, z=-273} BlockPos{x=28, y=81, z=-275}
+[11Nov2025 20:25:51.271] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=28, y=80, z=-273} BlockPos{x=28, y=81, z=-275}
+[11Nov2025 20:26:08.776] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=28, y=80, z=-273} BlockPos{x=24, y=79, z=-241}
+[11Nov2025 20:26:08.825] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=28, y=80, z=-273} BlockPos{x=24, y=79, z=-241}
+[11Nov2025 20:26:08.875] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=28, y=80, z=-273} BlockPos{x=24, y=79, z=-241}
+[11Nov2025 20:27:35.422] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-36, y=79, z=-143} BlockPos{x=-36, y=78, z=-144}
+[11Nov2025 20:27:35.475] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-36, y=79, z=-143} BlockPos{x=-36, y=78, z=-144}
+[11Nov2025 20:28:29.072] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-76, y=80, z=-82} BlockPos{x=-75, y=79, z=-83}
+[11Nov2025 20:28:29.122] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-76, y=80, z=-82} BlockPos{x=-75, y=79, z=-83}
+[11Nov2025 20:28:29.179] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-76, y=80, z=-82} BlockPos{x=-75, y=79, z=-83}
+[11Nov2025 20:28:29.223] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-76, y=80, z=-82} BlockPos{x=-75, y=79, z=-83}
+[11Nov2025 20:28:29.273] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-76, y=80, z=-82} BlockPos{x=-75, y=79, z=-83}
+[11Nov2025 20:28:29.321] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-76, y=80, z=-82} BlockPos{x=-75, y=79, z=-83}
+[11Nov2025 20:28:29.372] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-76, y=80, z=-82} BlockPos{x=-75, y=79, z=-83}
+[11Nov2025 20:28:29.423] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-76, y=80, z=-82} BlockPos{x=-75, y=79, z=-83}
+[11Nov2025 20:28:34.022] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-79, y=78, z=-75} BlockPos{x=-79, y=77, z=-75}
+[11Nov2025 20:28:34.073] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-79, y=78, z=-75} BlockPos{x=-79, y=77, z=-75}
+[11Nov2025 20:28:34.126] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-79, y=78, z=-75} BlockPos{x=-79, y=77, z=-75}
+[11Nov2025 20:28:35.221] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=78, z=-74} BlockPos{x=-80, y=77, z=-74}
+[11Nov2025 20:28:57.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa tried to swim in lava
+[11Nov2025 20:28:57.423] [Server thread/INFO] [gravestone/]: The death ID of player LuciaGolfa is 24a152fb-61d3-49fb-a768-b4ee41c00e33
+[11Nov2025 20:29:39.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa tried to swim in lava
+[11Nov2025 20:29:39.323] [Server thread/INFO] [gravestone/]: The death ID of player LuciaGolfa is 2ad2279f-60e6-4268-92f9-f37d50d8d393
+[11Nov2025 20:29:49.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [Stone Age]
+[11Nov2025 20:31:18.023] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-125, y=59, z=6} BlockPos{x=-124, y=59, z=7}
+[11Nov2025 20:31:18.073] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-125, y=59, z=6} BlockPos{x=-124, y=59, z=7}
+[11Nov2025 20:33:14.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas was burnt to a crisp whilst fighting Blaze
+[11Nov2025 20:33:14.572] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is 8dfb9d6a-699d-4e86-b3b6-107ad23139ea
+[11Nov2025 20:35:49.495] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:stronghold took 12 ms
+[11Nov2025 20:37:47.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set the time to 1000]
+[11Nov2025 20:40:49.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Spectator Mode]
+[11Nov2025 20:41:48.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 20:42:26.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Spectator Mode]
+[11Nov2025 20:42:37.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz has made the advancement [Eye Spy]
+[11Nov2025 20:43:13.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 20:44:41.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Spectator Mode]
+[11Nov2025 20:45:21.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 20:45:26.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 20:45:26.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas has made the advancement [Eye Spy]
+[11Nov2025 20:48:14.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [Suit Up]
+[11Nov2025 20:49:11.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [Enchanter]
+[11Nov2025 20:54:27.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuciaGolfa moved too quickly! 3.737093156998526,9.244872003040904,-2.6007437673956986
+[11Nov2025 20:54:27.475] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chukuskuz lost connection: Timed out
+[11Nov2025 20:54:27.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz left the game
+[11Nov2025 20:54:33.271] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elbombonaas lost connection: Timed out
+[11Nov2025 20:54:33.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas left the game
+[11Nov2025 20:54:37.521] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuciaGolfa lost connection: Timed out
+[11Nov2025 20:54:37.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa left the game
+[11Nov2025 20:54:44.267] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LuciaGolfa[/127.42.124.180:43545] logged in with entity id 56738 at (-1617.3261982683289, 51.91171934118105, 184.84770773800435)
+[11Nov2025 20:54:44.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa joined the game
+[11Nov2025 20:54:53.420] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1f41996d[id=<null>,name=elbombonaas,properties={},legacy=false] (/127.105.170.85:39825) lost connection: Disconnected
+[11Nov2025 20:55:03.171] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@bb0940a[id=<null>,name=elbombonaas,properties={},legacy=false] (/127.105.170.85:33337) lost connection: Disconnected
+[11Nov2025 20:55:06.027] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elbombonaas[/127.105.170.85:39649] logged in with entity id 57084 at (-1626.842695137501, -27.0, 150.67360543569973)
+[11Nov2025 20:55:06.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas joined the game
+[11Nov2025 20:56:02.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [Eye Spy]
+[11Nov2025 21:12:00.818] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuciaGolfa lost connection: Disconnected
+[11Nov2025 21:12:00.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa left the game
+[11Nov2025 21:12:54.173] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elbombonaas lost connection: Disconnected
+[11Nov2025 21:12:54.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas left the game
+[11Nov2025 21:13:57.868] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chukuskuz[/127.195.114.5:57509] logged in with entity id 61247 at (-1678.5625953700571, -51.0, 163.37721640946322)
+[11Nov2025 21:13:57.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz joined the game
+[11Nov2025 21:14:08.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Spectator Mode]
+[11Nov2025 21:14:33.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 21:14:44.721] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@17f72ddc[id=<null>,name=elbombonaas,properties={},legacy=false] (/127.105.170.85:56735) lost connection: Disconnected
+[11Nov2025 21:15:16.119] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@418e33b3[id=<null>,name=elbombonaas,properties={},legacy=false] (/127.105.170.85:41349) lost connection: Disconnected
+[11Nov2025 21:15:22.530] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elbombonaas[/127.105.170.85:53933] logged in with entity id 61830 at (-1643.6944602158487, -24.0, 208.3580435785907)
+[11Nov2025 21:15:22.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas joined the game
+[11Nov2025 21:16:14.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -793.500000, 71.000000, 129.500000]
+[11Nov2025 21:16:24.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 21:19:20.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz has made the advancement [Crafting a New Look]
+[11Nov2025 21:22:25.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 12 [Eye of Ender] to Chukuskuz]
+[11Nov2025 21:23:12.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 21:23:22.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 21:23:43.177] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.227] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.275] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.331] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.379] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.430] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.479] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.528] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.579] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.641] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.676] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.727] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.777] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.828] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.878] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.932] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:43.979] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:44.029] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=49, z=108} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:23:44.080] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-123, y=47, z=111} BlockPos{x=-122, y=48, z=109}
+[11Nov2025 21:24:49.330] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-95, y=49, z=45} BlockPos{x=-95, y=50, z=45}
+[11Nov2025 21:27:06.529] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-12, y=48, z=-51} BlockPos{x=-11, y=49, z=-51}
+[11Nov2025 21:27:06.577] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-12, y=48, z=-51} BlockPos{x=-11, y=49, z=-51}
+[11Nov2025 21:27:06.629] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-12, y=48, z=-51} BlockPos{x=-11, y=49, z=-51}
+[11Nov2025 21:27:07.129] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-7, y=49, z=-51} BlockPos{x=-7, y=50, z=-51}
+[11Nov2025 21:27:08.039] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6, y=50, z=-51} BlockPos{x=-5, y=50, z=-51}
+[11Nov2025 21:27:08.077] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-6, y=50, z=-51} BlockPos{x=-5, y=50, z=-51}
+[11Nov2025 21:27:12.427] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=54, z=-51} BlockPos{x=1, y=54, z=-51}
+[11Nov2025 21:27:12.493] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=54, z=-51} BlockPos{x=1, y=54, z=-51}
+[11Nov2025 21:28:04.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 87 [Arrow] to Chukuskuz]
+[11Nov2025 21:29:43.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -112.500000, 55.000000, 15.500000]
+[11Nov2025 21:31:32.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 21:45:44.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 21:46:09.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 21:46:40.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 21:49:45.119] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chukuskuz was kicked for floating too long!
+[11Nov2025 21:49:45.170] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chukuskuz lost connection: Flying is not enabled on this server
+[11Nov2025 21:49:45.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz left the game
+[11Nov2025 21:49:50.575] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chukuskuz[/127.195.114.5:51321] logged in with entity id 69726 at (-757.8899093384625, 78.06816489005843, 109.843198095718)
+[11Nov2025 21:49:50.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz joined the game
+[11Nov2025 21:50:29.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 21:50:45.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 1 [Command Block] to Chukuskuz]
+[11Nov2025 21:51:01.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set the time to 1000]
+[11Nov2025 21:53:49.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 1 [Diamond Sword] to Chukuskuz]
+[11Nov2025 21:55:35.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 1 [Diamond Sword] to Chukuskuz]
+[11Nov2025 21:56:29.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Spectator Mode]
+[11Nov2025 21:57:36.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 21:58:01.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Spectator Mode]
+[11Nov2025 21:58:32.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 21:59:52.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was slain by elbombonaas
+[11Nov2025 21:59:52.433] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is 96af3f80-ee7e-4682-8730-74b71f410df7
+[11Nov2025 22:04:27.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 22:05:32.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 22:07:06.826] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LuciaGolfa[/127.42.124.180:48501] logged in with entity id 73882 at (-1644.2061960012395, -26.0, 206.5560188895642)
+[11Nov2025 22:07:06.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa joined the game
+[11Nov2025 22:07:19.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported LuciaGolfa to Chukuskuz]
+[11Nov2025 22:11:46.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 1 [Bow] to Chukuskuz]
+[11Nov2025 22:14:20.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 34 [Bread] to Chukuskuz]
+[11Nov2025 22:18:27.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported LuciaGolfa to Chukuskuz]
+[11Nov2025 22:20:09.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas has made the advancement [The End?]
+[11Nov2025 22:20:10.171] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Scanning for legacy world dragon fight...
+[11Nov2025 22:20:10.171] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Found that the dragon has not yet been killed in this world.
+[11Nov2025 22:20:10.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz has made the advancement [The End?]
+[11Nov2025 22:20:11.180] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chukuskuz moved too quickly! 1743.8911961506099,73.32352912385574,-210.63529997206007
+[11Nov2025 22:20:11.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [The End?]
+[11Nov2025 22:21:49.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz was doomed to fall by Ender Dragon
+[11Nov2025 22:21:49.032] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is f5c7d19f-6c0a-4255-a5ea-64ed5b7a109b
+[11Nov2025 22:21:55.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -9.500000, 60.000000, -37.500000]
+[11Nov2025 22:22:03.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to elbombonaas]
+[11Nov2025 22:22:58.666] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuciaGolfa lost connection: Disconnected
+[11Nov2025 22:22:58.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa left the game
+[11Nov2025 22:23:10.866] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3382f2a6[id=<null>,name=LuciaGolfa,properties={},legacy=false] (/127.42.124.180:35049) lost connection: Disconnected
+[11Nov2025 22:23:20.065] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1e63a19f[id=<null>,name=LuciaGolfa,properties={},legacy=false] (/127.42.124.180:52639) lost connection: Disconnected
+[11Nov2025 22:23:24.471] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LuciaGolfa[/127.42.124.180:53963] logged in with entity id 79232 at (-30.53846591738804, 68.0, 23.672307374499045)
+[11Nov2025 22:23:24.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa joined the game
+[11Nov2025 22:23:59.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 78 [Acacia Planks] to Chukuskuz]
+[11Nov2025 22:24:31.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas was slain by Enderman
+[11Nov2025 22:24:31.964] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is 585f4ae4-33b1-40fa-a439-5b2614c1e4f2
+[11Nov2025 22:24:40.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 22:25:36.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas was slain by Ender Dragon
+[11Nov2025 22:25:36.764] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is 790d07f5-4b6d-427a-ade2-3178be1b2935
+[11Nov2025 22:25:45.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa was doomed to fall by Ender Dragon
+[11Nov2025 22:25:45.836] [Server thread/INFO] [gravestone/]: The death ID of player LuciaGolfa is 5dde35e5-215f-4a6b-ba98-9051706e0a7e
+[11Nov2025 22:25:51.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported 3 entities to Chukuskuz]
+[11Nov2025 22:26:52.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz has made the advancement [Free the End]
+[11Nov2025 22:26:53.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas was slain by Enderman
+[11Nov2025 22:26:53.965] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is 07008e4d-9c31-4edf-a663-626641cb968f
+[11Nov2025 22:27:11.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported 3 entities to Chukuskuz]
+[11Nov2025 22:28:09.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas has reached the goal [The Next Generation]
+[11Nov2025 22:28:38.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa has made the advancement [Remote Getaway]
+[11Nov2025 22:28:46.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 22:29:14.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas has made the advancement [Remote Getaway]
+[11Nov2025 22:29:24.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz has made the advancement [Remote Getaway]
+[11Nov2025 22:30:02.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa was slain by Enderman
+[11Nov2025 22:30:02.615] [Server thread/INFO] [gravestone/]: The death ID of player LuciaGolfa is afe286c6-3ecc-4ab0-8ba8-7366c9ed9c99
+[11Nov2025 22:30:19.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 22:30:33.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 22:30:41.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported LuciaGolfa to Chukuskuz]
+[11Nov2025 22:31:06.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 78 [Acacia Planks] to Chukuskuz]
+[11Nov2025 22:31:23.169] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chukuskuz was kicked for floating too long!
+[11Nov2025 22:31:23.228] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chukuskuz lost connection: Flying is not enabled on this server
+[11Nov2025 22:31:23.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz left the game
+[11Nov2025 22:31:31.022] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Chukuskuz[/127.195.114.5:43227] logged in with entity id 81594 at (-1102.0009969967898, -86.7497677500065, -410.8709544021908)
+[11Nov2025 22:31:31.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz joined the game
+[11Nov2025 22:31:32.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz fell out of the world
+[11Nov2025 22:31:32.067] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is 36984453-40aa-4ea1-87c7-a232c6b62e0a
+[11Nov2025 22:31:32.359] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chukuskuz moved too quickly! 0.0,-20.427756459085856,0.0
+[11Nov2025 22:31:41.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to elbombonaas]
+[11Nov2025 22:31:44.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 22:32:16.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 22:32:53.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas hit the ground too hard
+[11Nov2025 22:32:53.918] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is 1ea1af76-7701-41c4-8597-5cc314a0e0cc
+[11Nov2025 22:33:03.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 22:33:50.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas was slain by Enderman
+[11Nov2025 22:33:50.271] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is 5a8da040-55cb-494b-ac17-b7b0a61e98b1
+[11Nov2025 22:34:15.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 22:34:23.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz has made the advancement [The City at the End of the Game]
+[11Nov2025 22:34:54.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas was slain by Enderman
+[11Nov2025 22:34:54.965] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is 772d8c5a-8081-4cfd-9d9d-7f043be1852e
+[11Nov2025 22:35:21.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to LuciaGolfa]
+[11Nov2025 22:37:12.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas has made the advancement [The City at the End of the Game]
+[11Nov2025 22:37:56.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa was slain by Chukuskuz
+[11Nov2025 22:37:56.147] [Server thread/INFO] [gravestone/]: The death ID of player LuciaGolfa is 18dc82d2-0f70-44b9-bed7-8382555f9c6b
+[11Nov2025 22:38:05.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported LuciaGolfa to Chukuskuz]
+[11Nov2025 22:38:29.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 22:38:56.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa fell from a high place
+[11Nov2025 22:38:56.369] [Server thread/INFO] [gravestone/]: The death ID of player LuciaGolfa is 94d0f112-e273-4a0f-840c-738272a6e954
+[11Nov2025 22:39:31.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas fell from a high place
+[11Nov2025 22:39:31.400] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is 1d8fba33-7530-4a55-b096-e21f42454a69
+[11Nov2025 22:39:44.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported 3 entities to Chukuskuz]
+[11Nov2025 22:40:13.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported LuciaGolfa to elbombonaas]
+[11Nov2025 22:40:46.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 22:40:50.517] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuciaGolfa lost connection: Disconnected
+[11Nov2025 22:40:50.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuciaGolfa left the game
+[11Nov2025 22:41:12.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz fell out of the world
+[11Nov2025 22:41:12.666] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is 1b937cf3-7c0c-4498-859a-6d60586af830
+[11Nov2025 22:41:19.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to elbombonaas]
+[11Nov2025 22:41:23.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 22:41:32.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to elbombonaas]
+[11Nov2025 22:41:35.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 22:42:23.640] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:end_city took 42 ms
+[11Nov2025 22:42:26.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -2863.500000, 62.000000, -2511.500000]
+[11Nov2025 22:42:40.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 22:43:14.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas fell from a high place
+[11Nov2025 22:43:14.156] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is 3b9bb197-c4df-4d90-8d23-312940ac3fed
+[11Nov2025 22:43:36.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 22:44:04.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas was slain by Shulker
+[11Nov2025 22:44:04.464] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is bb8ce4e4-48ab-4a50-a11b-11d70cea1851
+[11Nov2025 22:44:16.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 22:44:50.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 22:45:40.975] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:end_city took 20 ms
+[11Nov2025 22:45:44.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -4111.500000, 98.356799, -3087.500000]
+[11Nov2025 22:45:54.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 22:45:58.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 22:46:51.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas suffocated in a wall
+[11Nov2025 22:46:51.166] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is 5075ea9b-63fb-4e51-a6bf-28723b5fa619
+[11Nov2025 22:46:56.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 22:49:45.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Gave 64 [Bread] to Chukuskuz]
+[11Nov2025 22:50:24.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz fell from a high place
+[11Nov2025 22:50:24.953] [Server thread/INFO] [gravestone/]: The death ID of player Chukuskuz is 7402347b-48c6-4666-9a04-cd81c08e201d
+[11Nov2025 22:50:30.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas hit the ground too hard
+[11Nov2025 22:50:30.051] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is 355359b1-92d9-4353-859b-d1a33d4643db
+[11Nov2025 22:50:30.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to elbombonaas]
+[11Nov2025 22:50:37.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 22:50:42.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 22:51:05.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 22:51:13.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to elbombonaas]
+[11Nov2025 22:51:23.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz has reached the goal [Sky's the Limit]
+[11Nov2025 22:51:43.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 22:52:13.550] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:end_city took 6 ms
+[11Nov2025 22:52:59.989] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:end_city took 20 ms
+[11Nov2025 22:53:03.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -3183.500000, 79.968678, -3471.500000]
+[11Nov2025 22:53:35.553] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:end_city took 183 ms
+[11Nov2025 22:53:39.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -3743.500000, 87.194581, -5391.500000]
+[11Nov2025 22:54:36.639] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:end_city took 71 ms
+[11Nov2025 22:54:49.781] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:end_city took 19 ms
+[11Nov2025 22:54:52.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -5055.500000, 110.827141, -6623.500000]
+[11Nov2025 22:55:38.523] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:end_city took 104 ms
+[11Nov2025 22:55:44.640] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:end_city took 2 ms
+[11Nov2025 22:55:50.167] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:end_city took 97 ms
+[11Nov2025 22:55:52.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -6975.500000, 76.936463, -7263.500000]
+[11Nov2025 22:56:14.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 22:56:40.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas has reached the goal [Sky's the Limit]
+[11Nov2025 22:57:29.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported Chukuskuz to -3159.500000, 68.000000, -3543.500000]
+[11Nov2025 22:58:19.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Teleported elbombonaas to Chukuskuz]
+[11Nov2025 22:58:58.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 22:59:39.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 23:00:19.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 23:00:40.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Creative Mode]
+[11Nov2025 23:00:50.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chukuskuz: Set own game mode to Survival Mode]
+[11Nov2025 23:01:10.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas fell from a high place
+[11Nov2025 23:01:10.960] [Server thread/INFO] [gravestone/]: The death ID of player elbombonaas is ea3ed97d-aba0-4486-96c7-c378e29c0315
+[11Nov2025 23:03:01.576] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elbombonaas lost connection: Disconnected
+[11Nov2025 23:03:01.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elbombonaas left the game
+[11Nov2025 23:03:17.468] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Chukuskuz lost connection: Disconnected
+[11Nov2025 23:03:17.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chukuskuz left the game
+[11Nov2025 23:03:33.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[11Nov2025 23:03:33.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[11Nov2025 23:03:33.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[11Nov2025 23:03:33.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[11Nov2025 23:03:33.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11Nov2025 23:03:35.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11Nov2025 23:03:35.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11Nov2025 23:03:35.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11Nov2025 23:03:35.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11Nov2025 23:03:35.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11Nov2025 23:03:35.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11Nov2025 23:03:36.058] [Server thread/INFO] [Framework/]: Unloading server configs...
+[11Nov2025 23:03:36.059] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[11Nov2025 23:03:36.069] [Server thread/INFO] [Framework/]: Finished unloading server configs
